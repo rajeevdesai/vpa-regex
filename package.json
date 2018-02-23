@@ -1,0 +1,30 @@
+{
+  "name": "vpa-regex",
+  "version": "1.0.0",
+  "description": "VPA Regex Pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajeevdesai/vpa-regex.git"
+  },
+  "keywords": [
+    "VPA",
+    "UPI",
+    "vpa",
+    "upi",
+    "Virtual Private Address",
+    "Unified Payments Interface",
+    "regex",
+    "upi regex",
+    "vpa regex"
+  ],
+  "author": "Rajeev Desai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeevdesai/vpa-regex/issues"
+  },
+  "homepage": "https://github.com/rajeevdesai/vpa-regex#readme"
+}
