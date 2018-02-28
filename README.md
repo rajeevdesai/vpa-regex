@@ -1,6 +1,5 @@
-# vpa-regex [![Build Status](https://travis-ci.org/rajeevdesai/vpa-regex.svg?branch=master)](https://travis-ci.org/rajeevdesai/vpa-regex)
+# vpa-regex [![Build Status](https://travis-ci.org/rajeevdesai/vpa-regex.svg?branch=master)](https://travis-ci.org/rajeevdesai/vpa-regex) [![npm](https://img.shields.io/npm/dt/vpa-regex.svg)](https://www.npmjs.com/package/vpa-regex)
 VPA Regex Pattern returns a regex that matches Virtual Payment Address (VPA).
-
 Use it for picking up VPA's.
 
 ## Install
@@ -8,7 +7,6 @@ Use it for picking up VPA's.
 ```
 $ npm install vpa-regex
 ```
-
 
 ## Usage
 
@@ -21,6 +19,10 @@ const vpaRegex = require('vpa-regex');
 
 'You have paid ₹500 to siddharth@ybl'.match(vpaRegex());
 //=> ['siddharth@ybl']
+
+//Doesn't contain vpa
+'Contact us at support@generic.com'.match(vpaRegex());
+//=> []
 ```
 
 ## License
